@@ -136,35 +136,29 @@ add_filter('upload_mimes', 'cc_mime_types');
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | device-family_001_RESIZED.png (original)                 | 162kb     |
-| -------------------------------------------------------- | --------- |
+| :--- | :--- |
 | cmp_family_E_Empty_noBG_v004_456x397__1x_optimized       | 43kb      |
-| -------------------------------------------------------- | --------- |
 | cmp_family_E_Empty_noBG_v004_912x794__2x_optimized.png   | 150kb     |
-| -------------------------------------------------------- | --------- |
 | cmp_family_E_Empty_noBG_v004_1368x1191__3x_optimized.png | 297kb     |
 
 ### Udenyca HCP Homepage Tile: Stable Pricing Image ###
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | icon_stable-pricing_GN_RESIZED.png (original)            | 7.1kb     |
-| -------------------------------------------------------- | --------- |
+| :--- | :--- |
 | icon_stable-pricing_GN.svg                               | 2.9kb     |
-| -------------------------------------------------------- | --------- |
+| :--- | :--- |
 | icon_stable-pricing_GN_80x80__1x_optimized.png           | 1.1kb     |
-| -------------------------------------------------------- | --------- |
 | icon_stable-pricing_GN_160x160__2x_optimized.png         | 1.9kb     |
-| -------------------------------------------------------- | --------- |
 | icon_stable-pricing_GN_240x240__3x_optimized.png         | 2.8kb     |
 
 ### Udenyca HCP Homepage Tile: Broad Insurance Image ###
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | icon_coverage_YW_RESIZED.png (original)                  | 7.1kb     |
-| -------------------------------------------------------- | --------- |
+| :--- | :--- |
 | icon_coverage_YW.svg                                     | 1kb       |
-| -------------------------------------------------------- | --------- |
+| :--- | :--- |
 | icon_coverage_YW_80x80__1x_optimized                     | 1kb       |
-| -------------------------------------------------------- | --------- |
 | icon_coverage_YW_160x160__2x_optimized.png               | 1.5kb     |
-| -------------------------------------------------------- | --------- |
 | icon_coverage_YW_240x240__3x_optimized.png               | 2.2kb     |
