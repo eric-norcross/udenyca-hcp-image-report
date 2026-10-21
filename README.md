@@ -1,11 +1,11 @@
-##Udenyca HCP Homepage Hero Image##
-###Problem###
+## Udenyca HCP Homepage Hero Image ##
+### Problem ###
 The hero image appears blurry on high-dpi screens because it is not configured to support responsive high-dpi image rendering.
 
-###Solution###
+### Solution ###
 Configure the image with the included multiple responsive sizes and allow the browser to select the most appropriate image to load for the users device
 
-###Example Usage###
+### Example Usage ###
 ```
 <!-- Ling tag supporting preloading of responsive high-dpi images (optional, suggested for hero image) -->
 <link rel="preload"
@@ -32,15 +32,15 @@ Configure the image with the included multiple responsive sizes and allow the br
      class="wp-image-2760">
 ```
 
-##Udenyca HCP Homepage Tile: Stable Pricing Image##
-###Problem###
+## Udenyca HCP Homepage Tile: Stable Pricing Image ##
+### Problem ###
 1. The width of the image is fixed at `5rem`, which artificially scales the image horizontally to `80px` (width). Additionally, due to the `height: auto` property, the image then scales vertically to `80px`. The image's original dimensions are `88px x 88px`.
 2. The image appears blurry on high-dpi screens because it is not configured to support responsive high-dpi image rendering.
 
-###Solution 1###
+### Solution 1 ###
 Both of the above the above issues can be addressed by using the included `icon_stable-pricing_GN.svg` SVG / vector asset.
 
-###Example Usage###
+### Example Usage ###
 ```
 <img
   decoding="async"
@@ -64,10 +64,10 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 ```
 
-###Solution 2###
+### Solution 2 ###
 - Configure the image with the included multiple responsive sizes and allow the browser to select the most appropriate image to load for the users device
 
-###Example Usage###
+### Example Usage ###
 ```
 <img src="icon_stable-pricing_GN_80x80__1x_optimized.png"
      srcset="icon_stable-pricing_GN_80x80__1x_optimized.png     80w,
@@ -81,14 +81,14 @@ add_filter('upload_mimes', 'cc_mime_types');
      class="wp-image-2762">
 ```
 
-##Udenyca HCP Homepage Tile: Broad Insurance Image##
-###Problem###
+## Udenyca HCP Homepage Tile: Broad Insurance Image ##
+### Problem ###
 The image appears blurry on high-dpi screens because it is not configured to support responsive high-dpi image rendering. This is particularly apparent on mobile devices.
 
-###Solution 1###
+### Solution 1 ###
 This issue can be addressed by using the included `icon_coverage_YW.svg` SVG / vector asset.
 
-###Example Usage###
+### Example Usage ###
 ```
 <img
   decoding="async"
@@ -112,10 +112,10 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 ```
 
-###Solution 2###
+### Solution 2 ###
 - Configure the image with the included multiple responsive sizes and allow the browser to select the most appropriate image to load for the users device
 
-###Example Usage###
+### Example Usage ###
 ```
 <img src="icon_coverage_YW_88x88__1x_optimized.png"
      srcset="icon_coverage_YW_88x88__1x_optimized.png     88w,
@@ -130,9 +130,9 @@ add_filter('upload_mimes', 'cc_mime_types');
 ```
 
 
-##Asset Size Comparison Tables##
+## Asset Size Comparison Tables ##
 
-###Udenyca HCP Homepage Hero Image###
+### Udenyca HCP Homepage Hero Image ###
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | device-family_001_RESIZED.png (original)                 | 162kb     |
@@ -143,7 +143,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 | -------------------------------------------------------- | --------- |
 | cmp_family_E_Empty_noBG_v004_1368x1191__3x_optimized.png | 297kb     |
 
-###Udenyca HCP Homepage Tile: Stable Pricing Image###
+### Udenyca HCP Homepage Tile: Stable Pricing Image ###
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | icon_stable-pricing_GN_RESIZED.png (original)            | 7.1kb     |
@@ -156,7 +156,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 | -------------------------------------------------------- | --------- |
 | icon_stable-pricing_GN_240x240__3x_optimized.png         | 2.8kb     |
 
-###Udenyca HCP Homepage Tile: Broad Insurance Image###
+### Udenyca HCP Homepage Tile: Broad Insurance Image ###
 | Asset                                                    | File Size |
 | -------------------------------------------------------- | --------- |
 | icon_coverage_YW_RESIZED.png (original)                  | 7.1kb     |
